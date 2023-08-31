@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import catone from '../res/catone.png';
-import cattwo from '../res/cattwo.png';
-import fat from '../res/fat.png';
+import catone from '../../res/catone.png';
+import cattwo from '../../res/cattwo.png';
+import fat from '../../res/fat.png';
 import classes from './Home.module.css'; 
-import bar from '../res/bar.png';
-import aboutus from '../res/aboutus.png';
+import bar from '../../res/bar.png';
+import aboutus from '../../res/aboutus.png';
 
 function Home() {
   return (

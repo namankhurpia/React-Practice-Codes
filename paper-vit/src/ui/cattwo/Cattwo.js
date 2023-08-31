@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import styles from '../css/Common.module.css';
-import Box from '../components/Box';
+import styles from '../../css/Common.module.css';
+import Box from '../../components/Box';
 
-function Catone () {
+function Cattwo () {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
   useEffect(() => {
-    axios.get('https://namankhurpia.pythonanywhere.com/catone/')
+    axios.get('https://namankhurpia.pythonanywhere.com/cattwo/')
       .then(response => {
         console.log(response.data);
         setData(response.data);
@@ -27,8 +27,8 @@ function Catone () {
   return (
     <div>
     <header className={styles.header}>
-    <h1 className={styles.heading}>Cat 1 Papers</h1>
-    <p className={styles.subheading}>Continuous Assessment Test 1</p>
+    <h1 className={styles.heading}>Cat 2 Papers</h1>
+    <p className={styles.subheading}>Continuous Assessment Test 2</p>
     </header>
     <div className={styles.datacontainer}>
         
@@ -48,4 +48,4 @@ function Catone () {
 
 };
 
-export default Catone;
+export default Cattwo;

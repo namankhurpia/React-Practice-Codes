@@ -2,10 +2,10 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 
-import Cattwo from './pages/cattwo/Cattwo';
-import Fat from './pages/fat/Fat';
-import Home from './pages/home/Home';
-import Catone from './pages/catone/Catone';
+import Cattwo from './ui/cattwo/Cattwo';
+import Fat from './ui/fat/Fat';
+import Home from './ui/home/Home';
+import Catone from './ui/catone/Catone';
 
 const App = () => {
   return (
