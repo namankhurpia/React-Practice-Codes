@@ -23,7 +23,6 @@ function Fat () {
 
 
 
-
   return (
     <div>
     <header className={styles.header}>
@@ -37,7 +36,6 @@ function Fat () {
       {!loading && !error && (
 
         <Box data={data}/>
-
 
       )}
     </div>
